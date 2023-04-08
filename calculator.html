@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <script src="calculator.js" defer></script>
+    <title>Calculator</title>
+  </head>
+  <body>
+    <h1 class="title">Calculator</h1>
+    <main>
+      <h1 id="display">0</h1>
+      <div class="buttons">
+        <h2 id="C" onclick="getId(this.id)">C</h2>
+        <h2 id="CE" onclick="getId(this.id)">CE</h2>
+        <h2 class="operation operator" id="%" onclick="display(this.id)">%</h2>
+        <h2 class="operation operator" id="/" onclick="display(this.id)">/</h2>
+        <h2 class="numbers operation" id="7" onclick="display(this.id)">7</h2>
+        <h2 class="numbers operation" id="8" onclick="display(this.id)">8</h2>
+        <h2 class="numbers operation" id="9" onclick="display(this.id)">9</h2>
+        <h2 class="operation operator" id="*" onclick="display(this.id)">*</h2>
+        <h2 class="numbers operation" id="4" onclick="display(this.id)">4</h2>
+        <h2 class="numbers operation" id="5" onclick="display(this.id)">5</h2>
+        <h2 class="numbers operation" id="6" onclick="display(this.id)">6</h2>
+        <h2 class="operation operator" id="-" onclick="display(this.id)">-</h2>
+        <h2 class="numbers operation" id="1" onclick="display(this.id)">1</h2>
+        <h2 class="numbers operation" id="2" onclick="display(this.id)">2</h2>
+        <h2 class="numbers operation" id="3" onclick="display(this.id)">3</h2>
+        <h2 class="operation operator" id="+" onclick="display(this.id)">+</h2>
+        <h2 class="numbers operation zero" id="0" onclick="display(this.id)">
+          0
+        </h2>
+        <h2 class="operation" id="." onclick="display(this.id)">.</h2>
+        <h2 id="=" onclick="getId(this.id)">=</h2>
+      </div>
+    </main>
+  </body>
+</html>
